@@ -14,6 +14,9 @@
 		3966FD1D2189E15500828C3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3966FD1B2189E15500828C3B /* LaunchScreen.storyboard */; };
 		3966FD282189E15500828C3B /* IosCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3966FD272189E15500828C3B /* IosCatalogTests.swift */; };
 		3966FD332189E15500828C3B /* IosCatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3966FD322189E15500828C3B /* IosCatalogUITests.swift */; };
+		3966FD442189E33100828C3B /* FadeInFadeOut.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3966FD432189E33100828C3B /* FadeInFadeOut.storyboard */; };
+		3966FD462189E3D100828C3B /* FadeInFadeOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3966FD452189E3D100828C3B /* FadeInFadeOutViewController.swift */; };
+		3966FD492189F60C00828C3B /* UIView+Animation+FadeInFadeOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3966FD482189F60C00828C3B /* UIView+Animation+FadeInFadeOut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		3966FD2E2189E15500828C3B /* IosCatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosCatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3966FD322189E15500828C3B /* IosCatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosCatalogUITests.swift; sourceTree = "<group>"; };
 		3966FD342189E15500828C3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3966FD432189E33100828C3B /* FadeInFadeOut.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FadeInFadeOut.storyboard; sourceTree = "<group>"; };
+		3966FD452189E3D100828C3B /* FadeInFadeOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeInFadeOutViewController.swift; sourceTree = "<group>"; };
+		3966FD482189F60C00828C3B /* UIView+Animation+FadeInFadeOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animation+FadeInFadeOut.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,8 @@
 		3966FD112189E15300828C3B /* IosCatalog */ = {
 			isa = PBXGroup;
 			children = (
+				3966FD472189F22500828C3B /* Extensions */,
+				3966FD402189E25C00828C3B /* Animations */,
 				3966FD122189E15300828C3B /* AppDelegate.swift */,
 				3966FD142189E15300828C3B /* ViewController.swift */,
 				3966FD162189E15300828C3B /* Main.storyboard */,
@@ -123,6 +131,23 @@
 				3966FD342189E15500828C3B /* Info.plist */,
 			);
 			path = IosCatalogUITests;
+			sourceTree = "<group>";
+		};
+		3966FD402189E25C00828C3B /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3966FD432189E33100828C3B /* FadeInFadeOut.storyboard */,
+				3966FD452189E3D100828C3B /* FadeInFadeOutViewController.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		3966FD472189F22500828C3B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3966FD482189F60C00828C3B /* UIView+Animation+FadeInFadeOut.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +256,7 @@
 			files = (
 				3966FD1D2189E15500828C3B /* LaunchScreen.storyboard in Resources */,
 				3966FD1A2189E15500828C3B /* Assets.xcassets in Resources */,
+				3966FD442189E33100828C3B /* FadeInFadeOut.storyboard in Resources */,
 				3966FD182189E15300828C3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +283,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3966FD152189E15300828C3B /* ViewController.swift in Sources */,
+				3966FD492189F60C00828C3B /* UIView+Animation+FadeInFadeOut.swift in Sources */,
+				3966FD462189E3D100828C3B /* FadeInFadeOutViewController.swift in Sources */,
 				3966FD132189E15300828C3B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
