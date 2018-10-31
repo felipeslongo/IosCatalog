@@ -26,6 +26,14 @@
                                     <segue destination="Mn2-bL-R6L" kind="show" id="DJp-6D-DxA"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yPX-ti-SyF">
+                                <rect key="frame" x="16" y="126" width="67" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Gradients"/>
+                                <connections>
+                                    <segue destination="Wok-qZ-jkG" kind="show" id="EdR-Bk-1hh"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -41,6 +49,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hqZ-Gc-PjG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="692" y="-10"/>
+        </scene>
+        <!--Gradients-->
+        <scene sceneID="K2f-ub-ckJ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Gradients" id="Wok-qZ-jkG" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rRr-Wc-AMW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="692" y="25"/>
         </scene>
     </scenes>
 </document>
